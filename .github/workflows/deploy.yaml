@@ -34,11 +34,11 @@ jobs:
       matrix:
         include:
           - environment: dev
-            region: us-east-1
+            region: us-west-2
           - environment: test
             region: us-west-2
           - environment: prod
-            region: us-east-2
+            region: us-west-2
     with:
       deploy: true
       tf-version: ${{ vars.TF_VERSION }}
