@@ -6,6 +6,7 @@ permissions:
   pull-requests: write # This is required to add comments to Pull Requests
   deployments: write # This is required to deactivate deployments
 
+#comment
 on:
   workflow_dispatch:
   pull_request:
